@@ -7,7 +7,17 @@ h1 {
     margin: 50px;
     font-size: 50px;
     font-weight: lighter;
-    margin-left: 10%;
+}
+.head {
+    display: inline-block;
+}
+.head img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.head h1{
+    float: left;
 }
 
 * {
