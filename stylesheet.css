@@ -57,6 +57,10 @@ h2 {
     margin-left: 11%;
 }
 
+#companyname {
+    color: #E86F11;
+}
+
 .linje {
     margin-left: 10%;
     margin-right: 10%;
@@ -65,8 +69,9 @@ h2 {
 }
 
 .infotekst {
-    margin-left: 11%;
+    margin-left: 13%;
     margin-top: 15px;
+    margin-right: 13%;
 }
 
 h3 {
