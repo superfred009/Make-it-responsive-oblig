@@ -7,16 +7,18 @@ h1 {
     margin: 50px;
     font-size: 50px;
     font-weight: lighter;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 .head {
     display: inline-block;
     margin-left: 10%;
 }
 .head img {
-    height: 80px;
-    width: 80px;
+    height: 110px;
+    width: auto;
     float: left;
-    margin-top: 35px;
+    margin-top: 22px;
+    margin-left: -9px;
 }
 .head h1 {
     float: left;
@@ -44,6 +46,7 @@ nav ul li {
     line-height: 40px;
     margin: 0 50px;
     margin-left: 10%;
+    letter-spacing: 2px;
 }
 
 nav ul li a {
@@ -52,33 +55,68 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+nav ul li a:hover {
+    color: #BE5A0E;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
 h2 {
-    margin: 70px;
-    margin-left: 11%;
+    margin: 40px;
+    margin-left: 10%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 45px;
+    width: 50%;
+    font-weight: lighter;
 }
 
 #companyname {
-    color: #E86F11;
+    color: #BE5A0E;
 }
 
 .linje {
     margin-left: 10%;
-    margin-right: 10%;
+    width: 50%;
     border-top: solid 2px;
-    border-color: #B75B15;
+    border-color: #BE5A0E;
+}
+
+.linje2 {
+    margin-left: 10%;
+    width: 50%;
+    border-top: solid 1px;
+    border-color: #BE5A0E;
 }
 
 .infotekst {
-    margin-left: 13%;
-    margin-top: 15px;
+    margin-left: 10%;
+    margin-top: 40px;
     margin-right: 13%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 60%;
 }
 
 h3 {
     margin-left: 10%;
-    margin-top: 50px;
+    margin-top: 200px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 footer p {
     margin-left: 10%;
+    margin-top: 400px;
+}
+
+.bilde {
+    height: 400px;
+    width: auto;
+    float: right;
+    margin-top: -300px;
+    margin-right: 10%;
 }
