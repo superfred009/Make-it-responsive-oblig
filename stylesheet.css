@@ -148,7 +148,26 @@ footer p {
     font-size: 17px;
     text-transform: uppercase;
 }
-#footerlogo {
-    height: 50px;
-    width: 50px;
+
+.bottom {
+    display: inline-block;
+    margin-left: 10%;
+}
+.bottom img {
+    height: 90px;
+    width: auto;
+    float: left;
+    margin-top: 22px;
+    margin-left: -9px;
+}
+.bottom h1 {
+    float: left;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.footer-content {
+    float: right;
+    margin-right: 20%;
+    margin-top: 22px;
 }
