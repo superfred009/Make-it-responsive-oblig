@@ -120,3 +120,35 @@ footer p {
     margin-top: -300px;
     margin-right: 10%;
 }
+
+.footer-nav {
+    background: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    height: 40px;
+    width: 100%;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 50px;
+    margin-left: 10%;
+    letter-spacing: 2px;
+}
+
+.footer-nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.footer-nav ul li a:hover {
+    color: #BE5A0E;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+#footerlogo {
+    height: 50px;
+    width: 50px;
+}
