@@ -94,9 +94,7 @@ nav ul li a:hover {
 }
 
 
-footer p {
-    margin-left: 10%;
-}
+
 
 /*.body {
     margin-left: 50px;
@@ -168,6 +166,7 @@ footer p {
       font-size: 19px;
   }
 
+
   table {
     border-collapse: collapse;
     padding: 20px;
@@ -177,6 +176,10 @@ footer p {
 table td {
     text-align: center;
     vertical-align: top;
+}
+
+table a:hover {
+    background-color: #BE5A0E;
 }
 
 .tittel {
@@ -201,7 +204,69 @@ table td {
 .linje1, .linje2, .linje3, .linje4, .linje5, .linje6 {
     margin-left: 120px;
     margin-right: 120px;
-    border-bottom: 1px solid #B75B15;
+    border-bottom: 2px solid #B75B15;
+}
+
+.ikoner {
+    height: 50px;
+    width: auto;
+}
+
+footer p {
+    margin-left: 10%;
+    margin-top: 400px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.followus {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 50px;
+    margin-left: 10%;
+    letter-spacing: 2px;
+}
+
+.footer-nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.footer-nav ul li a:hover {
+    color: #BE5A0E;
+    font-size: 17px;
+    text-transform: uppercase;
 }
 
 
+.bottom {
+    display: inline-block;
+    margin-left: 10%;
+}
+.bottom img {
+    height: 90px;
+    width: auto;
+    float: left;
+    margin-top: 22px;
+    margin-left: -9px;
+}
+.bottom h1 {
+    float: left;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.footer-content {
+    float: right;
+    margin-right: 20%;
+    margin-top: 22px;
+}
+
+.footer-content a {
+    text-decoration: underline;
+    color: black;
+}
