@@ -222,6 +222,14 @@ footer p {
     font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
+.footer-nav {
+    background: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    height: 40px;
+    width: 100%;
+}
+
 .footer-nav ul li {
     display: inline-block;
     line-height: 40px;
