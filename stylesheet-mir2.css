@@ -7,7 +7,22 @@ h1 {
     margin: 50px;
     font-size: 50px;
     font-weight: lighter;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+}
+.head {
+    display: inline-block;
     margin-left: 10%;
+}
+.head img {
+    height: 110px;
+    width: auto;
+    float: left;
+    margin-top: 22px;
+    margin-left: -9px;
+}
+.head h1 {
+    float: left;
+    margin-left: 20px;
 }
 
 * {
@@ -31,6 +46,7 @@ nav ul li {
     line-height: 40px;
     margin: 0 50px;
     margin-left: 10%;
+    letter-spacing: 2px;
 }
 
 nav ul li a {
@@ -39,9 +55,26 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-h2 {
+nav ul li a:hover {
+    color: #BE5A0E;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.staff {
     margin: 70px;
     margin-left: 11%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.contact {
+    margin: 70px;
+    margin-left: 11%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
 }
 
 .linje {
@@ -54,13 +87,12 @@ h2 {
 .infotekst {
     margin-left: 11%;
     margin-top: 15px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 60%;
 }
 
-h3 {
-    margin-left: 11%;
-    margin-top: 70px;
-    margin-bottom: 30px;
-}
 
 footer p {
     margin-left: 10%;
@@ -99,60 +131,77 @@ footer p {
     border-radius: 50%;
 }
 
-.bilderad {
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px; 
-    margin-bottom: 10px;
-    /*margin-left: 50px; 
-    1margin-right: 50px;*/
-  }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
 
-.bildetekst {
+.bildetekst1, .bildetekst2, .bildetekst3, .bildetekst4, .bildetekst5, .bildetekst6 {
     background-color: white;
-    width: 40%;
-    margin-top: 30px; 
-    margin-bottom: 10px;
-    /*margin-left: 50px; 
-    margin-right: 50px;*/
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.bildetekst1, .bildetekst2, .bildetekst3 {
-    background-color: white;
-    width: 40%;
-    border-top: solid 2px #B75B15;
-    padding: 10px;
-    margin-top: 30px; 
-    margin-bottom: 10px;
-    margin-left: 50px; 
-    margin-right: 50px;
+    width: 100%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 30px;
     /*1margin-left: 10%;
     1margin-right: 10%;*/
   }
 
-  .bildetekst1 {
+ /* .bildetekst1, bildetekst4 {
       margin-left: 10%;
-  }
-
-  .bildetekst3 {
       margin-right: 10%;
   }
+
+  .bildetekst3, bildetekst 6 {
+        padding: 20px;
+  } */
 
 
   .linkedin {
       color: white;
       background-color: #757575;
-      padding: 15px;
+      padding: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
       border-radius: 5px;
+      margin-top: 70px;
+      line-height: 50px;
+      font-family: alternate-gothic-no-3-d, sans-serif;
+      font-size: 19px;
   }
+
+  table {
+    border-collapse: collapse;
+    padding: 20px;
+    width: 100%;
+}   
+
+table td {
+    text-align: center;
+    vertical-align: top;
+}
+
+.tittel {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.navn {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.epost {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.linje1, .linje2, .linje3, .linje4, .linje5, .linje6 {
+    margin-left: 120px;
+    margin-right: 120px;
+    border-bottom: 1px solid #B75B15;
+}
+
 
