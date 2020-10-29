@@ -120,6 +120,7 @@ h3 {
 footer p {
     margin-left: 10%;
     margin-top: 400px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .bilde {
@@ -179,4 +180,9 @@ footer p {
     float: right;
     margin-right: 20%;
     margin-top: 22px;
+}
+
+.footer-content a {
+    text-decoration: underline;
+    color: black;
 }
