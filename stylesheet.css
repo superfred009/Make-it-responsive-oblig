@@ -137,6 +137,8 @@ h3 {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+
 .event-img {
     max-width: 100%;
     padding-top: 5px;
@@ -154,6 +156,7 @@ h3 {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 table td { 
@@ -244,4 +247,13 @@ footer p {
 .footer-content a {
     text-decoration: underline;
     color: black;
+}
+
+@media screen and (max-width: 900px) {
+    table, td, tr {
+        display: block;
+    }
+    table td { 
+        margin-bottom: 20px;
+    }
 }
