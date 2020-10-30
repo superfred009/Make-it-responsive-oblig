@@ -81,7 +81,7 @@ nav ul li a:hover {
     margin-left: 10%;
     margin-right: 10%;
     border-top: solid 2px;
-    border-color: #B75B15;
+    border-color: #BE5A0E;
 }
 
 .infotekst {
@@ -131,7 +131,7 @@ span {
 .hr {
     size: 8px;
     width: 90%;
-    color: #e87911;
+    color: #BE5A0E;
 }
 
 .bilde-img {
@@ -216,7 +216,7 @@ table a:hover {
 .linje1, .linje2, .linje3, .linje4, .linje5, .linje6 {
     margin-left: 120px;
     margin-right: 120px;
-    border-bottom: 2px solid #B75B15;
+    border-bottom: 2px solid #BE5A0E;
 }
 
 .ikoner {
@@ -238,7 +238,7 @@ footer p {
     background: white;
     border-top: solid 1px;
     border-bottom: solid 1px;
-    border-color: #b8b8b8;
+    border-color: rgb(180, 180, 180);
     height: 40px;
     width: 100%;
 }
@@ -249,6 +249,19 @@ footer p {
     margin: 0 50px;
     margin-left: 10%;
     letter-spacing: 2px;
+}
+
+
+
+#followus {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: #BE5A0E solid 1px;
+}
+
+#lettericon {
+    max-height: 50px;
+    width: auto;
 }
 
 .footer-nav ul li a {
@@ -262,7 +275,6 @@ footer p {
     font-size: 17px;
     text-transform: uppercase;
 }
-
 
 .bottom {
     display: inline-block;

@@ -170,6 +170,7 @@ footer p {
     background: white;
     border-top: solid 1px;
     border-bottom: solid 1px;
+    border-color: rgb(180, 180, 180);
     height: 40px;
     width: 100%;
 }
