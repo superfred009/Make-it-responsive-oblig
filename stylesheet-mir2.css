@@ -93,6 +93,14 @@ nav ul li a:hover {
     width: 60%;
 }
 
+.contactinfo {
+    margin-top: 15px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 60%;
+}
+
 
 
 
@@ -226,6 +234,7 @@ footer p {
     background: white;
     border-top: solid 1px;
     border-bottom: solid 1px;
+    border-color: #b8b8b8;
     height: 40px;
     width: 100%;
 }
