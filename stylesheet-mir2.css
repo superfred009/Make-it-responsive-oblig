@@ -93,14 +93,19 @@ nav ul li a:hover {
     width: 60%;
 }
 
+.infotekst a {
+    color: black;
+    text-decoration: underline;
+}
+
+.infotekst a:hover {
+    color: #BE5A0E;
+}
+
 .infotekst2 {
     margin-left: 11%;
     font-family: alternate-gothic-no-3-d, sans-serif;
     font-size: 20px;
-}
-
-span {
-    text-decoration: underline;
 }
 
 .contactinfo {
@@ -242,7 +247,7 @@ table a:hover {
 
 
 footer {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 footer p {
