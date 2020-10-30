@@ -59,7 +59,7 @@ nav ul li a:hover {
     color: #BE5A0E;
     font-size: 17px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2 {
