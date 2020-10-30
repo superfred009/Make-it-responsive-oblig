@@ -93,6 +93,10 @@ nav ul li a:hover {
     width: 60%;
 }
 
+span {
+    text-decoration: underline;
+}
+
 .contactinfo {
     margin-top: 15px;
     font-family: alternate-gothic-no-3-d, sans-serif;
