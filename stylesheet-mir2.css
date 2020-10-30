@@ -156,7 +156,7 @@ span {
     font-family: alternate-gothic-no-3-d, sans-serif;
     font-size: 19px;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     /*1margin-left: 10%;
     1margin-right: 10%;*/
@@ -175,9 +175,9 @@ span {
   .linkedin {
       color: white;
       background-color: #757575;
-      padding: 10px;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 6px;
+      padding-left: 50px;
+      padding-right: 50px;
       border-radius: 5px;
       margin-top: 70px;
       line-height: 50px;
@@ -188,10 +188,15 @@ span {
 
   table {
     border-collapse: collapse;
-    padding: 20px;
-    width: 100%;
-    position: relative;
+    margin: 50px;
+    width: 90%;
+    margin-left: 70px;
 }   
+
+table p {
+    width: 60%;
+    margin-left: 20%;
+}
 
 table td {
     text-align: center;
@@ -316,4 +321,11 @@ footer p {
 .footer-content a {
     text-decoration: underline;
     color: black;
+}
+
+
+@media screen and (max-width: 900px) {
+    table, td, tr {
+        display: block;
+    }
 }
