@@ -144,6 +144,7 @@ h3 {
 }
 .eventdate {
     border-bottom: #BE5A0E solid 1px;
+    font-weight: bold;
 }
 .eventicon {
     max-width: 35px;
@@ -179,6 +180,10 @@ footer p {
     margin: 0 50px;
     margin-left: 10%;
     letter-spacing: 2px;
+}
+
+.whowhere {
+    color: #BE5A0E;
 }
 
 #followus {
