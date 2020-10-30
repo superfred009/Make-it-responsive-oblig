@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 .staff {
-    margin: 70px;
+    margin-top: 70px;
     margin-left: 11%;
     font-family: alternate-gothic-no-3-d, sans-serif;
     font-size: 40px;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 .contact {
-    margin: 70px;
+    margin-top: 70px;
     margin-left: 11%;
     font-family: alternate-gothic-no-3-d, sans-serif;
     font-size: 40px;
@@ -93,14 +93,21 @@ nav ul li a:hover {
     width: 60%;
 }
 
+.infotekst2 {
+    margin-left: 11%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-size: 20px;
+}
+
 span {
     text-decoration: underline;
 }
 
 .contactinfo {
     margin-top: 15px;
+    margin-bottom: 15px;
     font-family: alternate-gothic-no-3-d, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
     width: 60%;
 }
@@ -183,6 +190,7 @@ span {
     border-collapse: collapse;
     padding: 20px;
     width: 100%;
+    position: relative;
 }   
 
 table td {
@@ -222,6 +230,14 @@ table a:hover {
 .ikoner {
     height: 50px;
     width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+footer {
+    margin-top: 40px;
 }
 
 footer p {
