@@ -149,9 +149,14 @@ h3 {
     font-weight: bold;
 }
 .eventicon {
-    max-width: 35px;
-    padding-right: 10px;
+    max-width: 30px;
+    padding-right: 2px;
     padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.icontext {
+    margin-top: 7px;
 }
 
 table {
