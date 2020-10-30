@@ -132,7 +132,7 @@ h3 {
     font-weight: 400;
 }
 .events {
-    margin-left: 10%;
+    margin-left: 9%;
     margin-right: 10%;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -150,6 +150,14 @@ h3 {
     max-width: 35px;
     padding-right: 10px;
     padding-top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td { 
+    border-left: 15px solid white; 
 }
 
 footer p {
