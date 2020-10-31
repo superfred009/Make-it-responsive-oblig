@@ -9,10 +9,12 @@ h1 {
     font-weight: lighter;
     font-family: alternate-gothic-no-3-d, sans-serif;
 }
+
 .head {
     display: inline-block;
     margin-left: 10%;
 }
+
 .head img {
     height: 110px;
     width: auto;
@@ -20,6 +22,7 @@ h1 {
     margin-top: 22px;
     margin-left: -9px;
 }
+
 .head h1 {
     float: left;
     margin-left: 20px;
@@ -61,17 +64,6 @@ nav ul li a:hover {
     text-transform: uppercase;
     text-decoration: none;
 }
-@media screen and (max-width: 900px) {
-    nav {
-        height: 80px;
-    }
-    nav ul li {
-        display: block;
-        text-align: center;
-        line-height: 27px;
-    }
-
-}
 
 h2 {
     margin: 40px;
@@ -81,11 +73,6 @@ h2 {
     width: 45%;
     font-weight: lighter;
     padding-right: 30px;
-}
-@media screen and (max-width: 900px) {
-    h2 {
-        font-size: 5vw;
-    }
 }
 
 #companyname {
@@ -115,11 +102,6 @@ h2 {
     font-size: 25px;
     font-weight: lighter;
     width: 80%;
-}
-@media screen and (max-width: 900px) {
-    .infotekst {
-        font-size: 4vw;
-    }
 }
 
 .infotekst2 {
@@ -176,6 +158,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 400;
 }
+
 .events {
     margin-left: 9%;
     margin-right: 10%;
@@ -184,12 +167,12 @@ h3 {
     font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
-
 .event-img {
     max-width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .eventdate {
     border-bottom: #BE5A0E solid 1px;
     font-weight: bold;
@@ -298,6 +281,7 @@ footer p {
     display: inline-block;
     margin-left: 10%;
 }
+
 .bottom img {
     height: 90px;
     width: auto;
@@ -305,6 +289,7 @@ footer p {
     margin-top: 22px;
     margin-left: -9px;
 }
+
 .bottom h1 {
     float: left;
     margin-left: 20px;
@@ -330,7 +315,21 @@ footer p {
         margin-bottom: 20px;
     }
 
-    .h2 {
-        font-size: 6vw;
+    .infotekst {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        line-height: 27px;
     }
 }
