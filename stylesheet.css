@@ -44,8 +44,8 @@ nav {
 nav ul li {
     display: inline-block;
     line-height: 40px;
-    margin: 0 50px;
     margin-left: 10%;
+    margin-right: 10%;
     letter-spacing: 2px;
 }
 
@@ -61,6 +61,17 @@ nav ul li a:hover {
     text-transform: uppercase;
     text-decoration: none;
 }
+@media screen and (max-width: 900px) {
+    nav {
+        height: 80px;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        line-height: 27px;
+    }
+
+}
 
 h2 {
     margin: 40px;
@@ -70,6 +81,11 @@ h2 {
     width: 45%;
     font-weight: lighter;
     padding-right: 30px;
+}
+@media screen and (max-width: 900px) {
+    h2 {
+        font-size: 5vw;
+    }
 }
 
 #companyname {
@@ -99,6 +115,11 @@ h2 {
     font-size: 25px;
     font-weight: lighter;
     width: 80%;
+}
+@media screen and (max-width: 900px) {
+    .infotekst {
+        font-size: 4vw;
+    }
 }
 
 .infotekst2 {
@@ -222,7 +243,7 @@ footer p {
     height: auto;
     position: absolute;
     right: 0%;
-    margin-top: -8%;
+    margin-top: -6%;
     margin-right: 10%;
     padding-left: 10px;
     margin-bottom: 10px;
